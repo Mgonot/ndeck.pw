@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700'); 
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+.chiffre{
+  font-family: 'Josefin Slab', serif;
+  font-size: 50px;
+  background-image: url(img/wallp.jpg);
+  text-align: center;
+  color: white;
+}
+
+.chiffre img{
+	margin: 10px;
+}
+
+.chiffre strong {
+  font-size : 60px;  
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.container img {
+  width: 100%;
+  height: cover;
+}
+
+.container .btn {
+  position: absolute;
+  top: 80%;
+  left: 45%;
+}
+
+.en_tete {
+  background-image: url(img/wallp.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.en_teteEV {
+  background-image: url(img/backa.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.en_teteEV h1, .en_teteEV h2, .en_teteEV p {
+  text-shadow: 5px 2px 4px black;
+}
+
+.hor {
+	text-align: center;
+	color: white;
+}
+
+.hor h2 {
+	font-size: 60px;
+}
+
+.hor p{
+	font-size: 30px;
+	text-align: center;
+}
+
+.en_teteINDEX {
+  background-image: url(img/ffondb.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.en_tete img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+    width: 60px;
+	filter: invert(1);
+}
+
+
+.en_tete h1, .en_teteEV h1, .en_teteC h1{
+	text-align: center;
+	color: white;
+	font-size: 150px;
+	margin:0;
+	padding:0;
+	font-family: 'Anton', sans-serif;
+}
+
+.en_tete h2{
+	text-align: center;
+	color: white;
+	font-size: 55px;
+	margin: 0;
+	padding: 0;
+}
+
+.wallpBLC{
+	background-image: url(img/wallpBLC.jpg);
+	background-repeat: repeat;
+	background-size: cover;
+
+}
+
+.wallpBLC p{
+	margin: 15px;
+}
+
+.wallp{
+	background-image: url(img/wallp.jpg);
+	background-repeat: repeat;
+	background-size: cover;	
+}
+
+.wallp h2{
+	margin: 10px;
+}
+
+.jt img, .chiffre img, .shop img{
+  transition: transform .2s;
+}
+
+.jt img:hover, .chiffre img:hover, .shop img:hover {
+  transform: scale(1.1);
+}
+
+.jt{
+	background-color: #300000;
+}
+
+.j2 img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.tabj img{
+  height: 700px;
+  display: block;
+}
+
+.wallpBLC h1{
+  text-align :center;
+  font-family: "Josefin", serif;
+  font-style: italic;
+  color: white;
+}
+
+.wallpBLC h2{
+  text-align :center;
+  color: white;
+}
+
+.tabj ul{
+  text-align : left;
+  font-family: "Josefin", serif;
+  color: white;
+  font-size: 20px;
+}
+
+.tabj p{
+	color: white;
+	text-align :justify;
+	font-size: 20px;
+	text-shadow: 1px 1px 2px black;
+}
+
+.wallp h2{
+	font-family: 'Anton', sans-serif;
+	text-align :center;
+	color: white;
+	
+}
+
+p {
+  text-align: justify;
+}
